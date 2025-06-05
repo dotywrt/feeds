@@ -1,0 +1,210 @@
+Package: chinadns-ng
+Version: 2025.03.27-r1
+Depends: libc, ipset
+License: AGPL-3.0-only
+Section: net
+URL: https://github.com/zfl9/chinadns-ng
+Architecture: aarch64_cortex-a53
+Installed-Size: 501760
+Filename: chinadns-ng_2025.03.27-r1_aarch64_cortex-a53.ipk
+Size: 262951
+SHA256sum: bb74a6b9ba11d38bffa6a37a5a302eb441d308c12357dda4a46ffbb8c1d76edd
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: cpufreq
+Version: 1
+Depends: libc
+Section: opt
+Architecture: all
+Installed-Size: 10240
+Filename: cpufreq_1_all.ipk
+Size: 2224
+SHA256sum: 37b497a2d3d4ddf6d99d33b10bc9aac2544f63da701ad7c678a408ddd8669cbb
+Description:  CPU Frequency Scaling adjustment tool
+
+Package: dns2socks
+Version: 2.1-r2
+Depends: libc, libpthread
+License: BSD-3-Clause
+Section: net
+URL: http://dns2socks.sourceforge.net/
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: dns2socks_2.1-r2_aarch64_cortex-a53.ipk
+Size: 12713
+SHA256sum: 8054d059c6dcdeec4d19edb2a8377523e0f651cc391e97fed5c7c808f45295fd
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: geoview
+Version: 0.1.10-r1
+Depends: libc
+License: Apache-2.0
+Section: net
+URL: https://github.com/snowie2000/geoview
+Architecture: aarch64_cortex-a53
+Installed-Size: 5867520
+Filename: geoview_0.1.10-r1_aarch64_cortex-a53.ipk
+Size: 2301643
+SHA256sum: 133f3dc9912bae956043fd3c80f4dde1924259205d859acdec49b4e08933ff81
+Description:  geoview is a handy tool to extract useful information from geo* files.
+
+Package: ipt2socks
+Version: 1.1.4-r3
+Depends: libc, libpthread
+License: AGPL-3.0
+Section: net
+URL: https://github.com/zfl9/ipt2socks
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: ipt2socks_1.1.4-r3_aarch64_cortex-a53.ipk
+Size: 29669
+SHA256sum: 38ae69f848ceadba0ee2465ae3e9999763bf0c98781b0d1704410e97f530d871
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: luci-app-argon-config
+Version: 25.156.43611~55be33e
+Depends: libc, luci-theme-argon
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-argon-config_25.156.43611~55be33e_all.ipk
+Size: 3968
+SHA256sum: 71db769e5d25554f93e928a3d870b4b3eaab4a5ddf644c846c1044afb39df9f3
+Description:  LuCI for Argon theme configuration
+
+Package: luci-app-atcommands
+Version: 1.0.9-r20241111
+Depends: libc, sms-tool
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-atcommands_1.0.9-r20241111_all.ipk
+Size: 3999
+SHA256sum: 6d3a1aa3b59319c73f8aefc716de6251520f284ccbe9960904c9618327cb5199
+Description:  LuCI JS interface for the sms-tool. The user interface supports only AT commands.
+
+Package: luci-app-cpufreq
+Version: 25.156.43611~55be33e
+Depends: libc, cpufreq
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-cpufreq_25.156.43611~55be33e_all.ipk
+Size: 2466
+SHA256sum: 8fca8996ed147bd14264069bdbdde4a47f4bcba551b1164d83cfd538625e518f
+Description:  LuCI for CPU Freq Setting
+
+Package: luci-app-ipinfo
+Version: 2.4-r1
+Depends: libc, curl
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-ipinfo_2.4-r1_all.ipk
+Size: 2962
+SHA256sum: 592c534b2cc06d7bff7d9f70dc538d1510c48180db6d4fc681550d2732ed9237
+Description:  Displays IP address information in overview via ip.guide.
+
+Package: luci-app-modeminfo
+Version: 1.0-r1
+Depends: libc, luci, sms-tool, kmod-usb-serial-option
+License: GPL-3.0
+Section: luci
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-modeminfo_1.0-r1_all.ipk
+Size: 10501
+SHA256sum: 9ac3058753b26ff0023e239011a28f38642ac58f8d2b9921dd9a2097b64a3f0f
+Description:  This LuCI app provides modem information in a web interface.
+
+Package: luci-app-mttl
+Version: 1.2.b1-r2
+Depends: libc, luci, nftables
+License: GPL-3.0
+Section: luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-mttl_1.2.b1-r2_all.ipk
+Size: 5485
+SHA256sum: dccec2e33800a2125daae9aa307b756f5bfc31d085dacb0886caa5bbecf29665
+Description:  This LuCI app provides TTL changer functionality in a web interface.
+
+Package: luci-app-passwall2
+Version: 25.5.15-r1
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, geoview, v2ray-geoip, v2ray-geosite, unzip, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 890880
+Filename: luci-app-passwall2_25.5.15-r1_all.ipk
+Size: 238926
+SHA256sum: c6e85342f88e615f3a850d35f24de3fa1b980b5facad1acaf75cdff50c10567e
+Description:  LuCI support for PassWall 2
+
+Package: luci-app-passwall
+Version: 25.6.1-r1
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, chinadns-ng, dns2socks, dnsmasq-full, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 3082240
+Filename: luci-app-passwall_25.6.1-r1_all.ipk
+Size: 946491
+SHA256sum: 45f5f98b292e416a460d3062ea66c5bed8971993dcfef2d38bc225c40fd4a588
+Description:  LuCI support for PassWall
+
+Package: luci-app-ramfree
+Version: 1.0-r1
+Depends: libc, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 10240
+Filename: luci-app-ramfree_1.0-r1_all.ipk
+Size: 1429
+SHA256sum: d7c7144ab91b85939b69438ef1263cd2b74a77fb9dbbe2c4f3e01476814d52a4
+Description:  luci-app-ramfree
+
+Package: luci-app-tailscale
+Version: 1.2.3-r1
+Depends: libc, tailscale
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-tailscale_1.2.3-r1_all.ipk
+Size: 8628
+SHA256sum: 0be1eeb4b4855fe70022ca837d28a086d4883185001d738150cbf3f4da832a61
+Description:  LuCI for Tailscale
+
+Package: luci-theme-argon
+Version: 2.3.2-r20250207
+Depends: libc, wget, jsonfilter, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 768000
+Filename: luci-theme-argon_2.3.2-r20250207_all.ipk
+Size: 391249
+SHA256sum: ab855272e0a3daff19dd8e978bb012d487a626d10f3c81fa0c03b6f61cf818b7
+Description:  Argon Theme
+
+Package: tcping
+Version: 0.3-r1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+URL: https://github.com/jlyo/tcping
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: tcping_0.3-r1_aarch64_cortex-a53.ipk
+Size: 4318
+SHA256sum: 27e9a4850405663dde897c873098da4b9c0687065a67dfbd4b12f7e44d1c244d
+Description:  tcping measures the latency of a tcp-connection
+
